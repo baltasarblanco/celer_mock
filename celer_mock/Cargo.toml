@@ -1,0 +1,8 @@
+[package]
+name = "celer_mock"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+nix = { version = "0.28.0", features = ["socket", "mman", "fs", "uio"] }
+memmap2 = "0.9"
