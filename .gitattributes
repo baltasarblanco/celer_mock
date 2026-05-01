@@ -1,0 +1,8 @@
+# Oculta los Makefiles del cálculo de lenguajes de GitHub
+Makefile linguist-generated=true
+*.mk linguist-generated=true
+
+# Asegura que los archivos Rust y TOML sean detectables
+*.rs linguist-detectable=true
+Cargo.toml linguist-detectable=true
+Cargo.lock linguist-detectable=true
