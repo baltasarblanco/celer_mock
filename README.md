@@ -33,7 +33,7 @@ Both processes read/write the same memory region with no data copying and no ker
 
 ```bash
 # Terminal 1: Receiver
-bash <(curl -s https://raw.githubusercontent.com/tu-usuario/tu-repo/main/run_receiver.sh)
+cargo run --release
 
 # Terminal 2: Emitter (ejemplo mock)
 ./emitter_mock  # debe enviar FD via /tmp/celer_bridge.sock
